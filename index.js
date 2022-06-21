@@ -71,7 +71,7 @@
 
 // const random = Math.floor(Math.random() * max) + min
 
-// if(random >= min){
+// if(random === max){
 //     console.log("Yes I win")
 // }
 // else{
@@ -106,9 +106,51 @@
 
 // ## -7 Rounded but better
 
-let roundedNumber = 3.6
+// let roundedNumber = 12.4
+// let natural = 12.5
+
+// if(roundedNumber > natural){
+//     console.log(Math.ceil(roundedNumber))
+// }
+// else{
+//     console.log(Math.floor(roundedNumber))
+// }
+
+// ## 08 - Rounded but better, Méthode 2
+
+// let roundedNumber = "12.8"
+// let natural = "12.5"
+
+// if(roundedNumber > natural){
+//     console.log(roundedNumber.indexOf(1))
+// }
+// else{
+//     console.log(roundedNumber.indexOf(3))
+// }
+
+// let roundedNumber = "12.3"
+// let natural = "12.5"
+
+// if(roundedNumber > natural){
+//     console.log(roundedNumber.substring(0, 3))
+// }
+// else{
+//     console.log(roundedNumber.substring(0, 1))
+// }
 
 
-// - Créez une variable `roundedNumber` de valeur `3.6`
-// - En utilisant uniquement `Math.floor()`, `Math.ceil()`, des opérations mathématiques et un `if () {} else {}` reproduisez le comportement de `Math.round()`
-// - Changez la valeur de `roundedNumber` pour tester l'algorithme que vous avez créé avec les valuers `3.3`, `3.8` et `12.4` et vérifier que ça marche bien dans tous les cas.
+// ## 09 - Rounded but better, Méthode 3
+
+// let roundedNumber = "129"
+// let natural = "125"
+
+// if(roundedNumber > natural){
+//     console.log(roundedNumber.split())
+// }
+// else{
+//     console.log(natural.split())
+// }
+
+// - Faire le même algo que l’exercice 7, cette fois ci avec `split`
+// - On reste sur des décimales à 1 chiffre
+
